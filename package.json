@@ -1,8 +1,12 @@
 {
   "name": "cls.sh",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Clears screen and scrollback.",
+  "preferGlobal": true,
   "main": "index.sh",
+  "bin": {
+    "cls": "index.sh"
+  },
   "scripts": {
     "test": "exit"
   },
