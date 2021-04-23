@@ -1,6 +1,6 @@
 {
   "name": "cls.sh",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Clears screen and scrollback.",
   "preferGlobal": true,
   "main": "index.sh",
@@ -8,7 +8,8 @@
     "cls": "index.sh"
   },
   "scripts": {
-    "test": "exit"
+    "test": "exit",
+    "deploy": "ebuild github+publish --publishMin=false --publishBranch=false"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/nodef/cls.sh/issues"
   },
-  "homepage": "https://github.com/nodef/cls.sh#readme"
+  "homepage": "https://github.com/nodef/cls.sh#readme",
+  "devDependencies": {
+    "extra-build": "^1.3.31"
+  }
 }
