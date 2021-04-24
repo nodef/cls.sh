@@ -1,0 +1,29 @@
+{
+  "name": "cls.sh",
+  "version": "0.0.1",
+  "description": "Clears screen and scrollback.",
+  "main": "index.sh",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/cls.sh.git"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "console",
+    "cls",
+    "sh",
+    "clear",
+    "screen",
+    "scrollback"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodef/cls.sh/issues"
+  },
+  "homepage": "https://github.com/nodef/cls.sh#readme"
+}
