@@ -1,4 +1,4 @@
-Clears screen and scrollback.
+Clears screen and scrollback.<br>
 :package: [NPM](https://www.npmjs.com/package/cls.sh),
 :smiley_cat: [GitHub](https://github.com/orgs/nodef/packages?repo_name=cls.sh),
 :scroll: [Files](https://unpkg.com/cls.sh/).
