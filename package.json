@@ -1,6 +1,6 @@
 {
   "name": "cls.sh",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Clears screen and scrollback.",
   "preferGlobal": true,
   "main": "index.sh",
