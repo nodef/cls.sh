@@ -1,6 +1,6 @@
 {
   "name": "cls.sh",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Clears screen and scrollback.",
   "preferGlobal": true,
   "main": "index.sh",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "exit",
-    "deploy": "ebuild github+publish --publishMin=false --publishBranch=false"
+    "deploy": "node ./build.js && ebuild github+publish --publishMin=false --publishBranch=false"
   },
   "repository": {
     "type": "git",
