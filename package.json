@@ -1,7 +1,7 @@
 {
   "name": "cls.sh",
-  "version": "1.0.4",
-  "description": "Clears screen and scrollback.",
+  "version": "1.0.5",
+  "description": "Clears screen and scrollback on Linux.",
   "preferGlobal": true,
   "main": "index.sh",
   "bin": {
@@ -10,10 +10,6 @@
   "scripts": {
     "test": "exit",
     "deploy": "node ./build.js && ebuild github+publish --publishMin=false --publishBranch=false"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nodef/cls.sh.git"
   },
   "keywords": [
     "cli",
@@ -27,6 +23,10 @@
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/cls.sh.git"
+  },
   "bugs": {
     "url": "https://github.com/nodef/cls.sh/issues"
   },
