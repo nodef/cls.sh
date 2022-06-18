@@ -7,7 +7,7 @@ Windows [Command prompt], which **clears the screen and scrollback** (entire
 screen buffer), and **resets the cursor** to the top-left corner of the screen.
 The `cls` command actually has its origins in [BASIC]. This package provides the
 same behaviour as mentioned above on **Linux** (with [bash] shell). I often
-prefer this instead of **clear** when the output of a command is long. You can
+prefer this instead of `clear` when the output of a command is long. You can
 install this with `npm install -g cls.sh`.
 
 > Stability: [Experimental](https://www.youtube.com/watch?v=L1j93RnIxEo).
@@ -41,3 +41,4 @@ $ cls
 <br>
 
 [![](https://img.youtube.com/vi/gUHejU7qyv8/maxresdefault.jpg)](https://www.youtube.com/watch?v=gUHejU7qyv8)
+[![DOI](https://zenodo.org/badge/361107780.svg)](https://zenodo.org/badge/latestdoi/361107780)
