@@ -1,7 +1,7 @@
 {
   "name": "cls.sh",
-  "version": "1.0.5",
-  "description": "Clears screen and scrollback on Linux.",
+  "version": "1.0.7",
+  "description": "Clear screen and scrollback on Linux.",
   "preferGlobal": true,
   "main": "index.sh",
   "bin": {
@@ -19,7 +19,9 @@
     "sh",
     "clear",
     "screen",
-    "scrollback"
+    "scrollback",
+    "bash",
+    "shell"
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",
