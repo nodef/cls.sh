@@ -1,6 +1,6 @@
 {
   "name": "cls.sh",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Clear screen and scrollback on Linux.",
   "preferGlobal": true,
   "main": "index.sh",
