@@ -1,6 +1,6 @@
 {
   "name": "cls.sh",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Clear screen and scrollback on Linux.",
   "preferGlobal": true,
   "main": "index.sh",
@@ -35,6 +35,6 @@
   },
   "homepage": "https://github.com/nodef/cls.sh#readme",
   "devDependencies": {
-    "extra-build": "^2.2.39"
+    "extra-build": "^2.2.41"
   }
 }
